@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/land-and-deploy/SKILL.md

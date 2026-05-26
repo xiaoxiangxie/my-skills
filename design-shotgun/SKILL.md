@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/design-shotgun/SKILL.md

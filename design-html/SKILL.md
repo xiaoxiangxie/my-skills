@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/design-html/SKILL.md

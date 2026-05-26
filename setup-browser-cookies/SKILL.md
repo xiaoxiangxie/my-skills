@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/setup-browser-cookies/SKILL.md

@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/open-gstack-browser/SKILL.md

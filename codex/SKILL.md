@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/codex/SKILL.md

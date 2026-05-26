@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/document-release/SKILL.md

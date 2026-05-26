@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/landing-report/SKILL.md

@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/ios-design-review/SKILL.md

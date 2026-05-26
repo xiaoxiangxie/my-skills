@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/benchmark-models/SKILL.md

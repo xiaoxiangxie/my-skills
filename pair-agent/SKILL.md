@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/pair-agent/SKILL.md

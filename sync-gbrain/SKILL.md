@@ -1,1 +1,0 @@
-/Users/xiaoxiang/gstack/sync-gbrain/SKILL.md
