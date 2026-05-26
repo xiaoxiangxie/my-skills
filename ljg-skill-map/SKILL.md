@@ -3,24 +3,11 @@ name: ljg-skill-map
 description: "Skill map viewer. Scans all installed skills and renders a visual overview — name, version, description, category at a glance. Use when user says 'skills', '技能', '技能地图', 'skill map', '我有哪些技能', '看看技能', '列出技能', 'list skills'. Also trigger when user asks what skills are available or installed."
 user_invocable: true
 version: "1.0.0"
-metadata:
-  "openclaw":
-    "install":
-      [
-        {
-          "id": "clawhub-ljg-skill-map",
-          "kind": "clawhub",
-          "slug": "ljg-skill-map",
-          "label": "Install via ClawHub",
-        },
-      ]
-  "clawhub":
-    "slug": "ljg-skill-map"
 ---
 
 # ljg-skill-map: 技能地图
 
-扫描 `~/.claude/skills/` 下所有已安装技能，生成一目了然的可视化地图。
+扫描 `~/.agents/skills/` 下所有已安装技能，生成一目了然的可视化地图。
 
 ## 执行
 
