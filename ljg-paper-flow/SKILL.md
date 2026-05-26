@@ -1,8 +1,8 @@
 ---
 name: ljg-paper-flow
-description: "Paper workflow: read papers + cast cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper (generates org analysis) then ljg-card -c (generates comic-style card PNG). Use when user says '论文流', 'paper flow', '读论文并做卡片', '论文卡片', or provides multiple papers wanting both analysis and cards."
+description: "Paper workflow: read papers + cast cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper (generates org analysis) then ljg-card -v (generates visual sketchnote PNG). Use when user says '论文流', 'paper flow', '读论文并做卡片', '论文卡片', or provides multiple papers wanting both analysis and cards."
 user_invocable: true
-version: "1.0.1"
+version: "1.0.2"
 ---
 
 # ljg-paper-flow: 论文流
@@ -18,8 +18,9 @@ version: "1.0.1"
 | 参数 | 说明 |
 |------|------|
 | 无参数 | 对话中已提供的论文链接/文件 |
-| `-l` | 卡片模具改用长图模式（默认 `-c` 漫画） |
+| `-l` | 卡片模具改用长图模式（默认 `-v` 视觉笔记） |
 | `-i` | 卡片模具改用信息图模式 |
+| `-c` | 卡片模具改用漫画模式 |
 
 ## 执行
 
@@ -37,7 +38,7 @@ version: "1.0.1"
 
 **步骤 B — 铸卡片（ljg-card）：**
 
-读取步骤 A 生成的 org 文件，调用 Skill tool 执行 `ljg-card`（默认 `-c`，或按用户指定的模具参数），以 org 文件内容为输入。等待完成，获得 PNG 文件路径。
+读取步骤 A 生成的 org 文件，调用 Skill tool 执行 `ljg-card`（默认 `-v`，或按用户指定的模具参数），以 org 文件内容为输入。等待完成，获得 PNG 文件路径。
 
 ### 3. 汇总报告
 
